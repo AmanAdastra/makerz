@@ -3,7 +3,9 @@ import PlayIcon from "@/components/svg/PlayIcon";
 
 const CtaComponent = () => {
   return (
-      <div className="relative h-[320px] w-[350px] bg-white rounded-lg p-6">
+    <div className="flex-auto">
+
+      <div className="relative h-[320px] w-[50%] bg-white rounded-lg p-6">
         <img
           src="https://videodelivery.net/ed83ec0012330711ea783fabd47efdff/thumbnails/thumbnail.jpg"
           className="rounded-lg"
@@ -20,6 +22,7 @@ const CtaComponent = () => {
           Go nomad --{" "}
         </button>
       </div>
+    </div>
   );
 };
 
