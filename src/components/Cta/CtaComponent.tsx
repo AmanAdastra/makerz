@@ -3,12 +3,12 @@ import PlayIcon from "@/components/svg/PlayIcon";
 
 const CtaComponent = () => {
   return (
-    <div className="flex-auto">
+    <div className="flex-1 mt-10 z-50">
 
-      <div className="relative h-[320px] w-[50%] bg-white rounded-lg p-6">
+      <div className="relative  max-w-[350px] mx-auto bg-white rounded-lg p-6">
         <img
           src="https://videodelivery.net/ed83ec0012330711ea783fabd47efdff/thumbnails/thumbnail.jpg"
-          className="rounded-lg"
+          className="rounded-lg hidden md:block"
         />
 
         <PlayIcon />

@@ -7,7 +7,7 @@ const PlayIcon = () => {
       x="0px"
       y="0px"
       viewBox="0 0 60 60"
-      className="h-[20%] w-[20%] absolute left-[135px] top-[70px] hover:cursor-pointer "
+      className="h-[20%] w-[20%] absolute left-[135px] top-[70px] hover:cursor-pointer hidden md:block"
     >
       <path
         d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M45.563,30.826l-22,15
