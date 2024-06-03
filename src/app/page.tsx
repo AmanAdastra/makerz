@@ -14,7 +14,7 @@ export default function Home() {
             <CtaComponent/>
         </div>
       </div>
-      <div className="h-screen  ">
+      <div className="h-screen  pt-[7px] px-1 md:px-9">
         <SearchFilterComponent/>
       </div>
     </div>
